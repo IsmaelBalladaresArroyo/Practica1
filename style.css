@@ -10,10 +10,10 @@ header{
   padding-bottom: 20px;
   text-decoration: none;
   display: block;
-  padding: 20px;
+
 }
 nav{
-
+    padding: 20px;
     background-color:#000000;
     text-align: right;
     text-decoration: none;
