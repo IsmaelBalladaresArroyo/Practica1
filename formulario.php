@@ -7,7 +7,8 @@
         <form action="insertar.php" method="POST">
             <div class="form-group">
                 <label for="nombre">Nombre</label>
-                <input required name="nombre" type="text" id="nombre" placeholder="Nombre de mascota" class="form-control">
+                <input required name="nombre" type="text"
+                id="nombre" placeholder="Nombre de mascota" class="form-control">
             </div>
             <div class="form-group">
                 <label for="edad">Edad</label>
