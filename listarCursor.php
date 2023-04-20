@@ -21,7 +21,7 @@ $sentencia->execute();
 <div class="row">
 
 	<div class="col-12">
-		<h1>Listar con cursor</h1>
+		<h1 class="text-center">Listar con cursor</h1>
 		<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Ismael Balladares</a>
 		<br>
 		<table class="table table-bordered">
@@ -40,11 +40,11 @@ $sentencia->execute();
 				-->
 				<?php while ($mascota = $sentencia->fetchObject()){ ?>
 					<tr>
-						<td><?php echo $mascota->id ?></td>
-						<td><?php echo $mascota->nombre ?></td>
-						<td><?php echo $mascota->edad ?></td>
-						<td><a class="btn btn-warning" href="<?php echo "editar.php?id=" . $mascota->id?>">Editar 📝</a></td>
-							<td><a class="btn btn-danger" href="<?php echo "eliminar.php?id=" . $mascota->id?>">Eliminar 🗑️</a></td>
+						<td class="alert alert-success" role="alert"><?php echo $mascota->id ?></td>
+						<td class="alert alert-warning" role="alert"><?php echo $mascota->nombre ?></td>
+						<td class="alert alert-success" role="alert"><?php echo $mascota->edad ?></td>
+						<td class="alert alert-warning" role="alert"><a class="btn btn-warning alert-link" href="<?php echo "editar.php?id=" . $mascota->id?>">Editar 📝</a></td>
+							<td class="alert alert-success" role="alert"><a class="btn btn-danger alert-link" href="<?php echo "eliminar.php?id=" . $mascota->id?>">Eliminar 🗑️</a></td>
 					</tr>
 				<?php } ?>
 			</tbody>
