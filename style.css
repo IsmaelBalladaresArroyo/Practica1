@@ -17,9 +17,9 @@ nav{
     text-decoration: none;
   }
   nav a{
-    display: inline-block;
-    padding-right: 30px;
-    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    display:inline-block;
   }
   nav ul{
     list-style: none;
