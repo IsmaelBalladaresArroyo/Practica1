@@ -9,14 +9,16 @@
 .encabezado{
   padding-bottom: 20px;
   text-decoration: none;
+  display: block;
+  width: 100%;
 }
 nav{
     padding: 20px;
     background-color:#000000;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
   }
-  nav a{
+  .encabezado a{
     text-transform: uppercase;
     text-align: left;
     display:inline-block;

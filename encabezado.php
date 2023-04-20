@@ -16,9 +16,8 @@
 <body>
     <!-- Definición del menú -->
     <div class="encabezado">
+    <h1><a href="https://tecsup.instructure.com/courses/25788">PostgreSQL-PHP | Por Ismael Balladares</a></h1>
     <nav>
-        <a href="https://tecsup.instructure.com/courses/25788">PostgreSQL-PHP | Por Ismael Balladares</a>
-
             <ul >
                 <li >
                     <a  href="./listar.php">Listar (arreglo)</a>

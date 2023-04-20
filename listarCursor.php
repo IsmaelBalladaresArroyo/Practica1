@@ -17,9 +17,8 @@ $sentencia->execute();
 ?>
 
 
-<?php include_once "encabezado.php" ?> x
+<?php include_once "encabezado.php" ?> 
 <div class="row">
-
 	<div class="col-12">
 		<h1 class="text-center">Listar con cursor</h1>
 		<a class="text-center" href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Ismael Balladares</a>
