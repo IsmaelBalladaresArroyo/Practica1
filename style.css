@@ -18,7 +18,7 @@ nav{
     text-align: right;
     text-decoration: none;
   }
-  nav h5 li{
+  nav h5 {
     text-align: left;
     display:inline-block;
   }
