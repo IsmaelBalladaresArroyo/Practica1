@@ -17,12 +17,12 @@ $sentencia->execute();
 ?>
 
 
-<?php include_once "encabezado.php" ?>
+<?php include_once "encabezado.php" ?> x
 <div class="row">
 
 	<div class="col-12">
 		<h1 class="text-center">Listar con cursor</h1>
-		<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Ismael Balladares</a>
+		<a class="text-center" href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Ismael Balladares</a>
 		<br>
 		<table class="table table-bordered">
 			<thead class="thead-dark">

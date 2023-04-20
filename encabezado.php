@@ -15,24 +15,50 @@
 
 <body>
     <!-- Definición del menú -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" target="_blank" href="https://tecsup.instructure.com/courses/25788">
-        PostgreSQL-PHP | Por Ismael Balladares
-        </a>
-        <div class="collapse navbar-collapse" id="miNavbar">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./listar.php">Listar (arreglo)</a>
+    <nav>
+        <a href="https://tecsup.instructure.com/courses/25788">PostgreSQL-PHP | Por Ismael Balladares</a>
+
+            <ul >
+                <li >
+                    <a  href="./listar.php">Listar (arreglo)</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./listarCursor.php">Listar (cursor)</a>
+                <li >
+                    <a  href="./listarCursor.php">Listar (cursor)</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./formulario.php">Agregar</a>
+                <li>
+                    <a href="./formulario.php">Agregar</a>
                 </li>
             </ul>
-        </div>
     </nav>
     <!-- Termina la definición del menú -->
     <main role="main" class="container">
+    <style>
+    nav{
+        padding: 20px;
+        background-color:#ffbb00;
+        text-align: center;
+      }
+      nav ul{
+        list-style: none;
+        display: inline-block;
+        padding:18px;
+     }
+     nav ul li{
+        float: left;
+
+    }
+    nav ul li a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 18px;
+    }
+    nav ul li a:hover{
+        transition: 1s ease-in-out;
+        background-color: rgb(255, 255, 255);
+        color: #ffbb00;
+        
+      }
+</style>
         
