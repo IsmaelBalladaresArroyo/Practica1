@@ -10,23 +10,28 @@ header{
   padding-bottom: 20px;
   text-decoration: none;
   display: block;
-  width: 100%;
 }
 nav{
-    padding: 20px;
+
     background-color:#000000;
     text-align: right;
     text-decoration: none;
   }
-  nav h5 {
+  h5 {
     text-align: left;
-    display:inline-block;
+    display:flex;
+    float:left;
+    padding-top:24px;
+    padding-left: 50px;
+    color: white;
+    size: 15px;
   }
   nav ul{
     list-style: none;
     display: inline-block;
     padding:18px;
     text-decoration: none;
+
  }
  nav ul li{
     float: left;
