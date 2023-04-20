@@ -16,7 +16,7 @@
 <body>
     <!-- Definición del menú -->
     <header>
-    <h1><a href="https://tecsup.instructure.com/courses/25788">PostgreSQL-PHP | Por Ismael Balladares</a></h1>
+    <h5><a href="https://tecsup.instructure.com/courses/25788">PostgreSQL-PHP | Por Ismael Balladares</a></h1>
     <nav>
             <ul >
                 <li >
@@ -29,7 +29,7 @@
                     <a href="./formulario.php">Agregar</a>
                 </li>
             </ul>
-        </nav>
+    </nav>
     </header>
     <!-- Termina la definición del menú -->
     <main role="main" class="container">
