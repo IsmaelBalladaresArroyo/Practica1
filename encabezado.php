@@ -15,6 +15,7 @@
 
 <body>
     <!-- Definición del menú -->
+    <div class="encabezado">
     <nav>
         <a href="https://tecsup.instructure.com/courses/25788">PostgreSQL-PHP | Por Ismael Balladares</a>
 
@@ -30,35 +31,7 @@
                 </li>
             </ul>
     </nav>
+    </div>
     <!-- Termina la definición del menú -->
     <main role="main" class="container">
-    <style>
-    nav{
-        padding: 20px;
-        background-color:#ffbb00;
-        text-align: center;
-      }
-      nav ul{
-        list-style: none;
-        display: inline-block;
-        padding:18px;
-     }
-     nav ul li{
-        float: left;
-
-    }
-    nav ul li a {
-        color: white;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 18px;
-    }
-    nav ul li a:hover{
-        transition: 1s ease-in-out;
-        background-color: rgb(255, 255, 255);
-        color: #ffbb00;
-        
-      }
-</style>
-        
+   
