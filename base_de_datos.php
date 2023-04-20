@@ -1,9 +1,9 @@
 <?php
-$contraseña = "sYIh7bF1Ap3qESWlVMzY";
-$usuario = "postgres";
-$nombreBaseDeDatos = "railway";
-$rutaServidor = "postgresql://postgres:sYIh7bF1Ap3qESWlVMzY@containers-us-west-24.railway.app:6662/railway";
-$puerto = "6662";
+$contraseña = "password=sYIh7bF1Ap3qESWlVMzY";
+$usuario = "user=postgres";
+$nombreBaseDeDatos = "dbname=railway";
+$rutaServidor = "host=containers-us-west-24.railway.app";
+$puerto = "port=6662";
 
 try{
     $base_de_datos = new PDO("pgsql: host = $rutaServidor;port=$puerto;dbname=$nombreBaseDeDatos", $usuario, $contraseña);
